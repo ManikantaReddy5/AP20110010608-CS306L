@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+ int a,b;
+ int c=3;
+ printf("Enter the value of a %d",a);
+ scanf("%d", &a)
+ printf("Enter the value of b %d",b);
+ scanf("%d", &b)
+for(i=0;i<=c;i++){
+if(a==b){
+printf("Week-5 Lexical Analyzer Code");
+}
+else{
+printf("Nothing to print");/* As a not equal to 
+b it will print nothing */
+}
+return 0;
+}
+
