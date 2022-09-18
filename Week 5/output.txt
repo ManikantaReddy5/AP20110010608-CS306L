@@ -1,0 +1,117 @@
+#
+ include 	 It is an identifier. 
+ < 	 It is a Relational operator Lessthan. 
+ stdio 	 It is an identifier. .
+ h 	 It is an identifier. 
+ > 	 It is a Relational operator Greaterthan.  
+ int 	 It is a keyword 
+ main 	 It is an identifier. 
+ ( 	 It is an Opening Paranthesis. 
+ ) 	 It is an Closing Paranthesis. 
+ { 	 It is an Opening Brace.   
+ int 	 It is a keyword 
+ a 	 It is an identifier. ,
+ b 	 It is an identifier. 
+ ; It is End of the line.   
+ int 	 It is a keyword 
+ c 	 It is an identifier. 
+ = 	 It is an Assignment operator. 
+ 3 	 It is a digit
+ ; It is End of the line.   
+ printf 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. "
+ Enter 	 It is an identifier.  
+ the 	 It is an identifier.  
+ value 	 It is an identifier.  
+ of 	 It is an identifier.  
+ a 	 It is an identifier.  
+ % 	 Used for Print values. 
+ d 	 It is an identifier. ",
+ a 	 It is an identifier. 
+ ) 	 It is an Closing Paranthesis. 
+ ; It is End of the line.   
+ scanf 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. "
+ % 	 Used for Print values. 
+ d 	 It is an identifier. ", 
+ & It is an Store values. 
+ a 	 It is an identifier. 
+ ) 	 It is an Closing Paranthesis.   
+ printf 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. "
+ Enter 	 It is an identifier.  
+ the 	 It is an identifier.  
+ value 	 It is an identifier.  
+ of 	 It is an identifier.  
+ b 	 It is an identifier.  
+ % 	 Used for Print values. 
+ d 	 It is an identifier. ",
+ b 	 It is an identifier. 
+ ) 	 It is an Closing Paranthesis. 
+ ; It is End of the line.   
+ scanf 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. "
+ % 	 Used for Print values. 
+ d 	 It is an identifier. ", 
+ & It is an Store values. 
+ b 	 It is an identifier. 
+ ) 	 It is an Closing Paranthesis.  
+ for 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. 
+ i 	 It is an identifier. 
+ = 	 It is an Assignment operator. 
+ 0 	 It is a digit
+ ; It is End of the line. 
+ i 	 It is an identifier. 
+ <= 	 It is a Relational operator Lessthan or Equal to. 
+ c 	 It is an identifier. 
+ ; It is End of the line. 
+ i 	 It is an identifier. 
+ ++ It is an Increment Operator. 
+ ) 	 It is an Closing Paranthesis. 
+ { 	 It is an Opening Brace.  
+ if 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. 
+ a 	 It is an identifier. 
+ == 	 It is a Relational operator Equal to. 
+ b 	 It is an identifier. 
+ ) 	 It is an Closing Paranthesis. 
+ { 	 It is an Opening Brace.  
+ printf 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. "
+ Week 	 It is an identifier. -
+ 5 	 It is a digit 
+ Lexical 	 It is an identifier.  
+ Analyzer 	 It is an identifier.  
+ Code 	 It is an identifier. "
+ ) 	 It is an Closing Paranthesis. 
+ ; It is End of the line. 
+ } 	 It is an Closing Brace.  
+ else 	 It is a keyword
+ { 	 It is an Opening Brace.  
+ printf 	 It is a keyword
+ ( 	 It is an Opening Paranthesis. "
+ Nothing 	 It is an identifier.  
+ to 	 It is an identifier.  
+ print 	 It is an identifier. "
+ ) 	 It is an Closing Paranthesis. 
+ ; It is End of the line. 
+ Multi line comment starts here 
+ 
+ As 	 It is an identifier.  
+ a 	 It is an identifier.  
+ not 	 It is an identifier.  
+ equal 	 It is an identifier.  
+ to 	 It is an identifier.  
+ b 	 It is an identifier.  
+ it 	 It is an identifier.  
+ will 	 It is an identifier.  
+ print 	 It is an identifier.  
+ nothing 	 It is an identifier.  
+ Multi line comment ends here 
+
+ } 	 It is an Closing Brace.  
+ return 	 It is a keyword 
+ 0 	 It is a digit
+ ; It is End of the line. 
+ } 	 It is an Closing Brace. 
