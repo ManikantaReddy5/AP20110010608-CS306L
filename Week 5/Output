@@ -1,0 +1,93 @@
+C:\Flex Windows\EditPlusPortable\Lex_codes>flex Week5.l
+
+C:\Flex Windows\EditPlusPortable\Lex_codes>cc lex.yy.c
+
+C:\Flex Windows\EditPlusPortable\Lex_codes>a.exe
+ No of Identifiers are : 37
+ The contents of symbol table are :
+
+ include
+ stdio
+ h
+ main
+ a
+ b
+ c
+ Enter
+ the
+ value
+ of
+ d
+ d
+ Enter
+ the
+ value
+ of
+ d
+ d
+ i
+ i
+ Week
+ Lexical
+ Analyzer
+ Code
+ Nothing
+ to
+ print
+ As
+ not
+ equal
+ to
+ it
+ will
+ print
+ nothing
+
+
+ no of lines = 20C:\Flex Windows\EditPlusPortable\Lex_codes>flex Week5.l
+
+C:\Flex Windows\EditPlusPortable\Lex_codes>cc lex.yy.c
+
+C:\Flex Windows\EditPlusPortable\Lex_codes>a.exe
+ No of Identifiers are : 37
+ The contents of symbol table are :
+
+ include
+ stdio
+ h
+ main
+ a
+ b
+ c
+ Enter
+ the
+ value
+ of
+ d
+ d
+ Enter
+ the
+ value
+ of
+ d
+ d
+ i
+ i
+ Week
+ Lexical
+ Analyzer
+ Code
+ Nothing
+ to
+ print
+ As
+ not
+ equal
+ to
+ it
+ will
+ print
+ nothing
+
+
+ no of lines = 20
