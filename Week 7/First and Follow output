@@ -1,0 +1,26 @@
+First(E) = { (, i, }
+
+ First(B) = { +, #, }
+
+ First(T) = { (, i, }
+
+ First(A) = { *, #, }
+
+ First(F) = { (, i, }
+
+-----------------------------------------------
+
+ Follow(E) = { $, ),  }
+
+ Follow(B) = { $, ),  }
+
+ Follow(T) = { +, $, ),  }
+
+ Follow(A) = { +, $, ),  }
+
+ Follow(F) = { *, +, $, ),  }
+
+
+--------------------------------
+Process exited after 0.02671 seconds with return value 0
+Press any key to continue . . .
