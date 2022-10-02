@@ -1,0 +1,23 @@
+Enter number of productions :8
+Enter productions Number 1 : E-TB
+Enter productions Number 2 : B-+TB
+Enter productions Number 3 : B-#
+Enter productions Number 4 : T-FA
+Enter productions Number 5 : A-*FA
+Enter productions Number 6 : A-#
+Enter productions Number 7 : F-(E)
+Enter productions Number 8 : F-i
+
+ FIRST(E)= {  (  i }
+
+ FIRST(B)= {  +  # }
+
+ FIRST(T)= {  (  i }
+
+ FIRST(A)= {  *  # }
+
+ FIRST(F)= {  (  i }
+
+--------------------------------
+Process exited after 70.13 seconds with return value 0
+Press any key to continue . . .
