@@ -1,0 +1,69 @@
+The given grammar is
+
+E -> TA
+
+A -> +TA | epsilon 
+
+T -> FB
+
+B -> *FB | epsilon 
+
+F -> (E) | d 
+
+Enter the string to be parsed:
+d+*d
+ 
+ E ->TA 
+ T ->FB
+ F ->d
+match of d occured 
+ B -> epsilon
+ A ->+TA
+match of + occured 
+
+Syntax Error!!!! String is invalid
+
+
+------------------------------------
+
+
+
+The given grammar is
+
+E -> TA
+
+A -> +TA | epsilon 
+
+T -> FB
+
+B -> *FB | epsilon 
+
+F -> (E) | d 
+
+Enter the string to be parsed:
+d+d*d
+ 
+ E ->TA 
+ T ->FB
+ F ->d
+match of d occured 
+ B -> epsilon
+ A ->+TA
+match of + occured  
+ T ->FB
+ F ->d
+match of d occured 
+ B ->*FB
+match of * occured 
+ F ->d
+match of d occured 
+ B -> epsilon
+ A -> epsilon
+
+ Successful parsing of string
+ 
+ 
+ 
+ -------------------------------------
+ 
+ 
