@@ -1,0 +1,49 @@
+The given grammar is
+
+S -> aBa
+B -> bB | epsilon 
+
+Enter the string to be parsed:
+abba
+ 
+ S ->aBa
+match of a occured 
+ B ->bB
+match of b occured 
+ B ->bB
+match of b occured 
+ B -> epsilon
+match of a occured 
+
+ Successful parsing of string
+ 
+ 
+ 
+ ----------------------------------
+ 
+ 
+ 
+ The given grammar is
+
+S -> aBa
+B -> bB | epsilon 
+
+Enter the string to be parsed:
+abbab
+ 
+ S ->aBa
+match of a occured 
+ B ->bB
+match of b occured 
+ B ->bB
+match of b occured 
+ B -> epsilon
+match of a occured 
+
+Syntax Error!!!! String is invalid
+
+
+
+--------------------------------------
+
+
