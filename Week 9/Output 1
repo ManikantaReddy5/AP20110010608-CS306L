@@ -1,0 +1,20 @@
+E->E+E
+E->E*E
+E->(E)
+E->d
+Enter the input string followed by $ 
+d+d*d$
+STACK    BUFFER          ACTION
+-----    -------        ------ 
+
+$       d+d*d$  Shift
+$d      +d*d$   Reduce E->d
+$E      +d*d$   shift
+$E+     d*d$    shift
+$E+d    *d$     Reduce E->d
+$E+E    *d$     shift
+$E+E*   d$      shift
+$E+E*d  $       Reduce E->d
+$E+E*E  $       Reduce E->E*E
+$E+E    $       Reduce E->E+E
+$E      $        Valid
