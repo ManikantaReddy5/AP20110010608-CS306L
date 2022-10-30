@@ -1,0 +1,23 @@
+S->0S0
+S->1S1
+S->2
+Enter the Input string followed by $ 
+001121100$
+STACK    Input   ACTION
+-----    -------        ------ 
+
+$       001121100$      SHIFT
+$0      01121100$       SHIFT
+$00     1121100$        SHIFT
+$001    121100$ SHIFT
+$0011   21100$  SHIFT
+$00112  1100$   Reduce S->2
+$0011S  1100$   SHIFT
+$0011S1 100$    Reduce S->1S1
+$001S   100$    SHIFT
+$001S1  00$     Reduce S->1S1
+$00S    00$     SHIFT
+$00S0   0$      Reduce S->0S0
+$0S     0$      SHIFT
+$0S0    $       Reduce S->0S0
+$S      $        It is an Valid String.....!
