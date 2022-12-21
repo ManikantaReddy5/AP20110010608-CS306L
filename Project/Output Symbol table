@@ -1,0 +1,6 @@
+---------------symbol_table----------
+Identifiers stored       Address of Identifiers
+student 0x55ead776f3ea
+sid     0x55ead776f3f4
+grade   0x55ead776f3fe
+sname   0x55ead776f408
