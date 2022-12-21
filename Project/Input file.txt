@@ -1,0 +1,2 @@
+create table student(sid int null, grade float null, sname varchar notnull);
+select sid from student;
